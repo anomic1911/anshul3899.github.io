@@ -1,0 +1,9 @@
+_site
+.sass-cache
+.jekyll-metadata
+.DS_store
+.ruby-version
+Gemfile.lock
+./_posts/2015*.md
+./_posts/2018*.md
+
