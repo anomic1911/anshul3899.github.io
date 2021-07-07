@@ -6,7 +6,7 @@ description: My reviews and watchlist
 nav: true
 ---
 
-I am enthusiastic about learning Japanese and Japanese culture. I have memorized Hiragana and some basic phrases.  I am a big fan of shounen manga. My favourite animes are Fullmetal Alchemist: Brotherhood, Hyouka and Shigatsu wa Kimi no Uso. My all-time favourite characters are:
+I am enthusiastic about learning Japanese and Japanese culture. I have memorized Hiragana and some basic phrases.  I am a big fan of shounen manga. My favourite animes are Fullmetal Alchemist: Brotherhood, Fruits Basket and Shigatsu wa Kimi no Uso. My all-time favourite characters are:
 
 
 <div class="row justify-content-sm-center">
@@ -40,22 +40,35 @@ I am enthusiastic about learning Japanese and Japanese culture. I have memorized
 - [x] Dr. Stone
 - [x] Hyouka
 - [x] Tokyo Ghoul: All seasons
-- [x] Shingeki no Kyojin
-- [x] Oregairu or Yahari Ore no Seishun Rabukome wa Machigatteiru: All seasons
-- [x] Food wars: Upto fourth plate!
+- [x] Shingeki no Kyojin: All seasons
+- [x] Yahari Ore no Seishun Rabukome wa Machigatteiru: All seasons
+- [x] Shokugeki no Soma: Upto fourth plate!
 - [x] Mirai Nikki
 - [x] Re:Zero kara Hajimeru Isekai Seikatsu  season 1
 - [x] Classroom of the Elite
-- [x] Parasyte -the maxim-	
+- [x] Parasyte the maxim
 - [x] Another
 - [x] Deadman Wonderland
-- [ ] The God of High School
-- [ ] Boku no Hero Academia
+- [x] Elfen Lied 
+- [x] Terror in Resonance 
+- [x] The God of High School
+- [x] Neon Genesis Evangelion: The End of Evangelion
+- [x] Boku no Hero Academia
+- [x] High School DxD: New, Born, Hero
+- [x] Fumetsu no Anata e
+- [x] Nanatsu no Taizai: Season 1, 2, 3
+- [x] No Game, No Life
+- [x] Jujutsu Kaisen
+- [x] Seishun Buta Yarō
+- [x] Haikyuu! All seasons
+- [x] Mob Psycho: All seasons
+- [x] Tate no Yūsha no Nariagari
+- [x] Fruits Basket - All seasons
 
 
 ## Movies
-- [ ] Weathering with you
-- [x] A silent Voice
+- [x] Weathering with you
+- [x] Koe no Katachi
 - [x] Perfect Blue
 - [x] Kimi no na wa
 - [x] I want to eat your pancreas

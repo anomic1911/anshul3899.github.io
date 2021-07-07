@@ -4,9 +4,9 @@
 
 title: Anshul Yadav
 name: Anshul Yadav
-email: anshulyadaviitd@gmail.com
+email: anshulyadav3899@gmail.com
 description: > # this means to ignore newlines until "url:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Anshul Yadav Personal Webpage.
 footer_text:
 
 url:  # the base hostname & protocol for your site
@@ -35,8 +35,9 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # -----------------------------------------------------------------------------
 
 github_username: anshul3899 # your GitHub user name
-twitter_username: anshulyadav1911 # your Twitter handle
+twitter_username: anshulyadav3899 # your Twitter handle
 linkedin_username: anshul-yadav-iitd # your LinkedIn user name
+facebook_username: anshul3899
 scholar_userid: # your Google Scholar ID
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
@@ -44,11 +45,9 @@ quora_username: Anshul-Yadav-77 # your Quora username
 publons_id: # your ID on Publons
 research_gate_profile: # your profile on ResearchGate
 blogger_url: # your blogger URL
-instagram_username: # your instagram username
+instagram_username: anshulyadav3899 # your instagram username
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
-
 google_analytics: UA-142483289-1 # out your google-analytics code
 
 # -----------------------------------------------------------------------------

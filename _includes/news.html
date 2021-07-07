@@ -1,24 +1,60 @@
-<div class="news">
-  <h2>updates</h2>
-  {% if site.news  %}
-    <div class="table-responsive">
-      <table class="table table-sm table-borderless">
-      {% assign news = site.news | reverse %}
-      {% for item in news limit: site.news_limit %}
-        <tr>
-          <th scope="row">{{ item.date | date: "%b %-d, %Y" }}</th>
-          <td>
-            {% if item.inline %}
-              {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-            {% else %}
-              <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-            {% endif %}
-          </td>
-        </tr>
-      {% endfor %}
-      </table>
+<div class="news mt-3 p-0">
+  <h1 class="title mb-4 p-0">news</h1>
+  
+     <div class="row p-0">
+      <div class="col-sm-2 p-0">
+        <span class="badge light-blue darken-1 font-weight-bold text-uppercase align-middle date ml-3">
+          July, 2021
+        </span>
+      </div>
+      <div class="col-sm-10 mt-2 mt-sm-0 ml-3 ml-md-0 p-0 font-weight-light text">
+        <p> Started as Member of Technical Staff in Oracle India, Bangalore
+        </p>
+      </div>
     </div>
-  {% else %}
-    <p>No news so far...</p>
-  {% endif %}
+    
+    <div class="row p-0">
+      <div class="col-sm-2 p-0">
+        <span class="badge light-blue darken-1 font-weight-bold text-uppercase align-middle date ml-3">
+          Summer, 2020
+        </span>
+      </div>
+      <div class="col-sm-10 mt-2 mt-sm-0 ml-3 ml-md-0 p-0 font-weight-light text">
+        <p> Interned with Oracle India in Digital Assistant team
+        </p>
+      </div>
+    </div>
+  
+    <div class="row p-0">
+      <div class="col-sm-2 p-0">
+        <span class="badge light-blue darken-1 font-weight-bold text-uppercase align-middle date ml-3">
+          Summer, 2019
+        </span>
+      </div>
+      <div class="col-sm-10 mt-2 mt-sm-0 ml-3 ml-md-0 p-0 font-weight-light text">
+        <p> Interned with Prof. Arpan Chattopadhyay working on False Data Injection Attack. </p>
+      </div>
+    </div>
+    
+    <div class="row p-0">
+      <div class="col-sm-2 p-0">
+        <span class="badge light-blue darken-1 font-weight-bold text-uppercase align-middle date ml-3">
+          Summer, 2018
+        </span>
+      </div>
+      <div class="col-sm-10 mt-2 mt-sm-0 ml-3 ml-md-0 p-0 font-weight-light text">
+        <p>Worked on PS4 controlled Robotic arm with gripper in Robotics Club IIT Delhi.</p>
+      </div>
+    </div>
+  
+    <div class="row p-0">
+      <div class="col-sm-2 p-0">
+        <span class="badge light-blue darken-1 font-weight-bold text-uppercase align-middle date ml-3">
+          July, 2017
+        </span>
+      </div>
+      <div class="col-sm-10 mt-2 mt-sm-0 ml-3 ml-md-0 p-0 font-weight-light text">
+        <p> Started as an Electrical Engineering Undergraduate student at IIT Delhi!</p>
+      </div>
+    </div>
 </div>

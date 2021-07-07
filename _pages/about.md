@@ -7,17 +7,13 @@ description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
 profile:
   align: right
   image: anshul.jpeg
-  address: >
-    <p> Mobile: +91-9428161839</p>
-    <p>Aravali Hostel, IIT Delhi</p>
-    <p>New Delhi, Delhi-110016</p>
 
 news: true
 social: true
 ---
 
-Hi! I am a final year undergraduate student in [Electrical Engineering](http://ee.iitd.ernet.in/) at [Indian Institue of Technology Delhi](http://www.iitd.ac.in/). My current research focuses on **self-supervised learning** for vision and improving **coreference resolution**. I have a strong inclination towards applications of AI for the betterment of society.
+I am currently working as a Member of Technical Staff at Oracle India Pvt Ltd, Bangalore. I am part of the Oracle's {} team working on {}. 
 
-I am currently working with Prof. [Prathosh A.P.](https://sites.google.com/view/prathosh/) for completing my Bachelor's Thesis. In the summer of 2020, I interned with [Oracle India](oracle.com/in/index.html) in their [Digital Assistant](https://www.oracle.com/in/application-development/cloud-services/digital-assistant/) team. In the past, I have been fortunate enough to work with Prof. [Arpan Chattopadhyay](https://sites.google.com/site/arpanchattop/) as a research intern in 2019. 
+I graduated from [Indian Institue of Technology Delhi](http://www.iitd.ac.in/) with a major in [Electrical Engineering](http://ee.iitd.ernet.in/) in 2021. I have been fortunate to work with Prof. [Sandeep Kumar](https://sites.google.com/view/sandeepkr/) on my Bachelor's Thesis titled [Graph Model Selection in Guassian Graphical Models](https://github.com/anshul3899/thesis). Previously, I interned with [Oracle India](https://www.oracle.com/in/index.html) in their [Digital Assistant](https://www.oracle.com/in/application-development/cloud-services/digital-assistant/) team in summer 2020. Before that, I worked with Prof. [Arpan Chattopadhyay](https://sites.google.com/site/arpanchattop/) as a research intern in 2019. 
 
-Formerly, I was a core team member of [Robotics Club](http://roboticsclub.iitd.ac.in/) where we designed and developed drives(holonomic, mecanum etc), multi legged locomotive robots, ROS based differential drive etc.
+I was an active member of the [Robotics Club](http://roboticsclub.iitd.ac.in/) where we designed and developed drives(holonomic, mecanum etc), multi-legged locomotive robots, ROS-based differential drive etc. I have a strong inclination towards applications of AI for the betterment of society.
