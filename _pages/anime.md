@@ -8,15 +8,17 @@ nav: true
 
 I am enthusiastic about learning Japanese and Japanese culture. I have memorized Hiragana and some basic phrases.  I am a big fan of shounen manga. My favourite animes are Fullmetal Alchemist: Brotherhood, Fruits Basket and Shigatsu wa Kimi no Uso. My all-time favourite characters are:
 
+Male: Itachi Uchiha, Naruto Uzumaki, Lelouch Vi Brittannia, Houtarou Orekii
+Female: Mai Sakarujima, Tohru Honda, Kaori Miazono
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="/assets/img/lelouch.jpg" alt="" title="Lelouch"/>
-        <center>Male: Lelouch Vi Britannia</center>
+        <center>Lelouch Vi Britannia</center>
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="/assets/img/kaori.jpg" alt="" title="Kaori"/>
-        <center>Female: Kaori Miyazono</center>
+        <center>Kaori Miyazono</center>
     </div>
 </div>
 
@@ -64,6 +66,8 @@ I am enthusiastic about learning Japanese and Japanese culture. I have memorized
 - [x] Mob Psycho: All seasons
 - [x] Tate no Yūsha no Nariagari
 - [x] Fruits Basket - All seasons
+- [x] Naruto
+- [x] Naruto: Shippuden
 
 
 ## Movies
