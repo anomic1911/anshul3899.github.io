@@ -8,8 +8,9 @@ nav: true
 
 I am enthusiastic about learning Japanese and Japanese culture. I have memorized Hiragana and some basic phrases.  I am a big fan of shounen manga. My favourite animes are Fullmetal Alchemist: Brotherhood, Fruits Basket and Shigatsu wa Kimi no Uso. My all-time favourite characters are:
 
-Male: Itachi Uchiha, Naruto Uzumaki, Lelouch Vi Brittannia, Houtarou Orekii
-Female: Mai Sakarujima, Tohru Honda, Kaori Miazono
+<bold> Male: </bold> Itachi Uchiha, Naruto Uzumaki, Lelouch Vi Brittannia, Houtarou Orekii
+
+<bold> Female: </bold> Mai Sakarujima, Tohru Honda, Kaori Miazono
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
