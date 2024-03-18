@@ -1,0 +1,160 @@
+/* styles.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff; /* Set background color to white */
+  color: #000; /* Set text color to black */
+  min-height: 100vh; /* Ensure the body takes at least the full viewport height */
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Stack children vertically */
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #000; /* Set header background color to black */
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #fff; /* Set header text color to white */
+}
+
+main {
+  flex-grow: 1; /* Allow main content to grow to fill remaining space */
+  overflow-y: auto; /* Enable vertical scrolling for main content if necessary */
+}
+
+
+
+
+.section {
+  background-color: #fff; 
+  border-radius: 8px;
+  padding: 40px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.section h2 {
+  color: #000; /* Set section title color to black */
+  margin-top: 0;
+}
+
+.section p {
+  color: #000; /* Set paragraph text color to dark gray */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer {
+  background-color: #000; /* Set footer background color to black */
+  color: #fff; /* Set text color to black */
+  padding: 20px 0;
+  position: relative; /* Change position to relative */
+  width: 100%;
+  text-align: center;
+  bottom: 0; /* Position at the bottom of the content */
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 24px;
+  margin-right: 10px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #007bff;
+}
+
+
+/* header navigation styles */
+header nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+  color: #007bff;
+}
+
+/* blog-styles.css */
+
+.blog-posts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.blog-post {
+  background-color: #fff;
+  border: 1px solid #eee;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.actual-post {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+
+.blog-post:hover {
+  transform: translateY(-5px);
+}
+
+.blog-post h3 {
+  margin-top: 0;
+}
+
+.blog-post p {
+  margin-bottom: 10px;
+}
+
+.blog-post .date {
+  color: #666;
+  font-size: 14px;
+}
+
+.read-more {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}
