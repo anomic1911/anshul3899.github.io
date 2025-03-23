@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gradient Descent vs Coordinate Descent - Anshul Yadav</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <script type="text/javascript" async
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Anshul Yadav</h1>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../blog.html">Blog</a></li>
+          <!-- Add more navigation links as needed -->
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+  <main>
+    <section id="post2" class="actual-post">
+      <div class="container">
+        <h2>Gradient Descent vs Coordinate Descent</h2>
+        <p><strong>Date:</strong> March 06, 2019</p>
+        
+        <p>Gradient descent is the most widely used algorithm for finding the local minima, which is usually the global minima for convex functions. However, in certain cases, computing the derivative is more expensive than computing the function value itself. In such cases, Coordinate Descent proves to be a powerful alternative. It takes steps along one of the coordinate lines to reach the global optimum. However, it is important to note that gradient descent and coordinate descent usually do not converge at a precise value, and some tolerance must be maintained.</p>
+    
+    <h2>Algorithm for Gradient Descent</h2>
+    <p>Suppose \( J \) is the cost function we are trying to minimize. Then,</p>
+    <pre><code>
+    Repeat until convergence:
+        $$ \theta_j := \theta_j - \alpha \frac{\partial}{\partial \theta_j} J(\theta) $$ (for every j)
+    </code></pre>
+    
+    <h2>Algorithm for Coordinate Descent</h2>
+    <p>Consider an unconstrained optimization problem:</p>
+    <p>$$ \min_{\alpha} W(\alpha_1, \alpha_2, ..., \alpha_m) $$</p>
+    <p>where \( W \) is some function of parameters \( \alpha_i \).</p>
+    <pre><code>
+    Loop until convergence:
+        for \( i = 1, ..., m \):
+            $$ \alpha_i := \arg\min_{\hat{\alpha_i}} W(\alpha_1, ..., \alpha_{i-1}, \hat{\alpha_i}, \alpha_{i+1}, ..., \alpha_m) $$
+    </code></pre>
+    <p>In the inner loop, we optimize \( W \) with respect to a single \( \alpha_i \), while holding all other parameters fixed. This method is particularly efficient when computing <i>arg min</i> is straightforward.</p>
+    
+    <h2>L2 SVM Optimization Problem</h2>
+    <p>Coordinate ascent, a minor modification of Coordinate Descent, is often used in L2 SVM, where solving a non-convex problem (NP-hard) requires convex approximation.</p>
+    <p>The dual of the original L2 SVM problem is given by:</p>
+    <p>
+        $$ \max_{\alpha} W(\alpha) = \sum_{i=1}^m \alpha_i - \frac{1}{2} \sum_{i,j=1}^m y^{(i)} y^{(j)} \alpha_i \alpha_j \langle x^{(i)}, x^{(j)} \rangle $$
+    </p>
+    <p>Subject to:</p>
+    <p>
+        $$ 0 \leq \alpha_i \leq C, \quad i = 1,2,.., m $$
+    </p>
+    <p>
+        $$ \sum_{i=1}^m \alpha_i y^{(i)} = 0 $$
+    </p>
+    <p>Since updating only one \( \alpha_i \) would not maintain the constraint \( \sum_{i=1}^m \alpha_i y^{(i)} = 0 \), the problem is solved by updating two \( \alpha_i \)'s at a time. This approach forms the basis of the Sequential Minimal Optimization (SMO) algorithm, which is used to solve this convex optimization problem.</p>
+    
+    <h3>SMO Algorithm Steps</h3>
+    <ol>
+        <li>Select \( \alpha_i, \alpha_j \) (using heuristics).</li>
+        <li>Hold all \( \alpha_k \)'s fixed except \( \alpha_i, \alpha_j \).</li>
+        <li>Optimize \( W(\alpha) \) with respect to \( \alpha_i, \alpha_j \).</li>
+    </ol>
+    
+    <blockquote>
+        <p><b>Note:</b> In this post, "gradient descent" refers to batch gradient descent.</p>
+    </blockquote>
+    
+    <h3>References</h3>
+    <ul>
+        <li><a href="http://cs229.stanford.edu/notes-spring2019/cs229-notes3.pdf">Stanford's CS229 Notes</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Coordinate_descent">Wikipedia - Coordinate Descent</a></li>
+        <li><a href="https://pdfs.semanticscholar.org/59ee/e096b49d66f39891eb88a6c84cc89acba12d.pdf">John Platt's Paper on SMO</a></li>
+    </ul>
+    
+      </div>
+    </section>
+  </main>
+  
+ <footer>
+    <div class="container">
+      <p>&copy; 2024 Anshul Yadav. All rights reserved.</p>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/anshul-yadav-iitd/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/ay1141982112" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+        <a href="https://twitter.com/ay1141982112" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/ay1141982112" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+        
+    </div>
+  </footer>
+
+</body>
+</html>
